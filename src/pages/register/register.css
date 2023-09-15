@@ -1,0 +1,40 @@
+input {
+    box-shadow: none !important;
+}
+
+.container-login {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-login {
+    width: 450px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.text-err {
+    color: red;
+    font-style: italic;
+}
+
+.border-err {
+    border-color: red;
+}
